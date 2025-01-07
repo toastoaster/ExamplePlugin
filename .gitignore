@@ -1,11 +1,14 @@
 # Own
 server/*
+!server/plugins/
+!server/eula.txt
+!server/paper-1.13.2-657.jar
+
+server/plugins/*
 !server/plugins/ExamplePlugin.jar
 !server/plugins/worldedit-bukkit-7.2.14.jar
 !server/plugins/worldguard-bukkit-7.0.0.jar
-!server/plugins/WorldGuard/worlds/world/regions.yml
-!server/eula.txt
-!server/paper-1.13.2-657.jar
+!server/plugins/WorldGuard/
 
 # User-specific stuff
 .idea/
@@ -27,7 +30,6 @@ out/
 *.ctxt
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear
