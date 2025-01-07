@@ -1,0 +1,5 @@
+name: ExamplePlugin
+version: '${project.version}'
+main: me.bevoyd.exampleplugin.ExamplePlugin
+api-version: '1.13'
+depend: [WorldEdit, WorldGuard]
